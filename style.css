@@ -111,7 +111,7 @@ body {
 .general-content {
     display: flex;
     justify-content:space-between;
-    margin-top: 55px;
+    margin-top: 50px;
 }
 
 .general-1 {
@@ -121,6 +121,26 @@ body {
     background-size: cover;
     height: 90px;
     padding: 105px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.btn-3 {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-3:hover {
+    color: inherit;
 }
 
 .general-2 {
@@ -129,7 +149,27 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90px;
-    padding: 105px 60px;
+    padding: 105px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.btn-4 {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-4:hover {
+    color: inherit;
 }
 
 .general-3 {
@@ -138,7 +178,27 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90px;
-    padding: 105px 60px;
+    padding: 105px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.btn-5 {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-5:hover {
+    color: inherit;
 }
 
 .general-4 {
@@ -147,7 +207,27 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90px;
-    padding: 100px 60px;
+    padding: 105px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.btn-6 {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-6:hover {
+    color: inherit;
 }
 
 .general-5 {
@@ -156,7 +236,56 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90px;
-    padding: 100px 60px;
+    padding: 105px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.btn-7 {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-7:hover {
+    color: inherit;
+}
+
+.general-9 {
+    background-image: url(images/r9.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    padding: 105px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.btn-11 {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-11:hover {
+    color: inherit;
 }
 
 .general-6 {
@@ -165,16 +294,52 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90px;
-    padding: 100px 85px;
+    padding: 105px 55px;
+}
+
+.btn-8 {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-8:hover {
+    color: inherit;
 }
 
 .general-7 {
-    background-image: url(images/r7.png);
+    background-image: url(images/r7.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 90px;
-    padding: 100px 85px;
+    padding: 105px 55px;
+}
+
+.btn-9 {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-9:hover {
+    color: inherit;
 }
 
 .general-8 {
@@ -183,7 +348,52 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90px;
-    padding: 100px 85px;
+    padding: 105px 55px;
+}
+
+.btn-10 {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-10:hover {
+    color: inherit;
+}
+
+.general-10 {
+    background-image: url(images/r10.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    padding: 105px 55px;
+}
+
+.btn-12 {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-12:hover {
+    color: inherit;
 }
 
 h2 {
@@ -257,7 +467,7 @@ h2 {
 }
 
 .info-2 {
-    padding: 170px 0;
+    padding: 120px 0;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -300,7 +510,7 @@ h2 {
 }
 
 .footer {
-    padding: 100px 0 0 0;
+    padding: 45px 0 0 0;
     text-align: center;
 }
 
