@@ -288,6 +288,132 @@ body {
     color: inherit;
 }
 
+.btn-13 {
+    display: inline-block;
+    padding: 22px 35px;
+    color: #545454;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-13:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn-NS {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-NS:hover {
+    color: inherit;
+    transform: translateY(-10px); /* Efecto de levitación */
+}
+
+.btn-ECO {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-ECO:hover {
+    color: inherit;
+}
+
+.btn-AVE {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.btn-AVE:hover {
+    color: inherit;
+}
+
+.btn-PEZ {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+    transition: opacity 0.3s ease;
+}
+
+.btn-PEZ:hover {
+    color: inherit;
+}
+
+.btn-REP {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+    transition: opacity 0.3s ease;
+}
+
+.btn-REP:hover {
+    color: inherit;
+}
+
+.btn-ROE {
+    display: inline-block;
+    padding: 20px 45px;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: inherit;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+    transition: opacity 0.3s ease;
+}
+
+.btn-ROE:hover {
+    color: inherit;
+}
+
 .general-6 {
     background-image: url(images/r6.png);
     background-position: center center;
@@ -422,7 +548,7 @@ h2 {
 .products h2 {
     font-size: 45px;
     color: black;
-    margin-bottom: 30px;
+    margin-bottom: 19px;
 }
 
 .products p {
@@ -468,45 +594,59 @@ h2 {
 
 .info-2 {
     padding: 120px 0;
+    background-color: #f9f9f9;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .reseñas {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     text-align: left;
     margin-top: 35px;  
 }
 
-.reseñas-left {
-    width: 50%;
-    padding-right: 25px;
-}
-
-.reseñas-right {
-    width: 50%;
-    padding-left: 35px;
+.reseñas-left, .reseñas-right {
+    width: 48%; /* Ajusta el ancho para mejor espaciado */
+    padding: 0 15px;
 }
 
 .reseñas-txt {
     margin-bottom: 25px;
+    padding: 20px;
+    background:lightsteelblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el efecto de tarjeta */
+    transition: transform 0.3s ease; /* Efecto de transición */
+}
+
+.reseñas-txt:hover {
+    transform: translateY(-10px); /* Efecto de levitación */
 }
 
 .reseñas-txt img {
     width: 70px;
+    height: 70px;
+    border-radius: 50%;
     margin-bottom: 15px;
 }
 
 .reseñas-txt h3 {
     font-size: 18px;
-    color: black;
+    color: #333;
+    margin: 0 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 .reseñas-txt p {
-    color: black;
+    color: #666;
     font-size: 15px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .footer {
@@ -613,24 +753,22 @@ h2 {
         margin-bottom: 10px;
     }
 
-    .info-1 {
-        padding: 200px 30px;
-        background-size: cover;
-        margin-top: -110px;
+    .products {
+        padding: 30px;
+        text-align: center;
     }
 
-    .info-circle {
-        flex-direction: column;
-        align-items: center;
+    .products h2 {
+        font-size: 40px;
     }
 
-    .circle-txt {
-        width: 100%;
-        margin-bottom: 25px;
+    .products p {
+        padding: 0;
+        margin-bottom: 40px;
     }
 
-    .g2 {
-        margin-top: -120px;
+    .product-info {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .info-2 {
